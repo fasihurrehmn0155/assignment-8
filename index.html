@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nested Fieldsets Form</title>
+
+</head>
+<body>
+
+<form>
+  <fieldset>
+    <legend>The First Section</legend>
+
+    <fieldset>
+      <legend>The First Subsection</legend>
+      <label for="firstsub-field1">field1</label>
+      <input type="text" id="firstsub-field1" name="firstsub-field1">
+    </fieldset>
+
+    <label for="first-field1">field1</label>
+    <input type="text" id="first-field1" name="first-field1">
+  </fieldset>
+
+  <fieldset>
+    <legend>Section II</legend>
+
+    <fieldset>
+      <legend>Section II-A</legend>
+      <label for="section2a-field1">field1</label>
+      <input type="text" id="section2a-field1" name="section2a-field1">
+    </fieldset>
+
+    <fieldset>
+      <legend>Section II-B</legend>
+      <label for="section2b-field1">field1</label>
+      <input type="text" id="section2b-field1" name="section2b-field1">
+    </fieldset>
+  </fieldset>
+
+  <button type="submit">Go! Go! Go!</button>
+</form>
+
+</body>
+</html>
